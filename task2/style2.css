@@ -1,0 +1,49 @@
+body{
+    padding: 0px 300px;
+    background-color: black;
+}
+
+h4{
+    background-color:  rgb(8, 62, 72);
+    border-bottom: 1px solid black;
+    padding: 10px;
+    color: bisque;
+}
+p{ 
+padding: 10px;
+}
+.img{
+    background-image: url('task2.jpg');
+    background-size: cover;
+    height: 190px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    color: rgb(9, 99, 77); 
+}
+.maindiv{
+    width: 20%;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+}
+.menudiv{
+    background-color: rgb(126, 188, 201);
+}
+.menudiv a{
+
+text-decoration: none;
+color: #470d0d;
+font-size: 18px;
+letter-spacing: 1px;
+display: list-item;
+padding: 20px;
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+
+}
+.menudiv a:hover{
+background-color: rgb(209, 162, 108);
+transition: 0.5s;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
