@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <title>Registration </title>
+    <style>
+        body{
+            margin-top: 50px;
+            width: 100%;
+            
+        }
+        .container{
+            padding: 40px 400px;
+            background-image: url("bluebg.webp");
+            background-position: center;
+            background-size: cover;
+            align-items: center;
+            
+            
+        }
+        .main{
+            opacity: 0.95;
+            
+        }
+        h2{
+            text-align: center;
+        }
+        .form-label{
+           
+            margin: 0px 40px;
+            color: antiquewhite;
+            
+
+        }
+
+        .input-group-text{
+            padding: 7px 10px;
+
+        }
+
+        .form-control{
+            padding: 0px 10px;
+        }
+
+        .btn{
+            margin: 0px 100px;
+          
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+                <U style="color: antiquewhite;"><h2>Registration Form</h2></U><br>
+        
+                <div class="form-group input-group my-2">
+                    <label for="floatingInputGroup1"></label>
+                        <div class=" input-group-prepend ms-5">             
+                            <span class="input-group-text"> <i class="fa fa-user"></i> <br></span>
+                        </div>
+                        <input name="" class="form-control" placeholder="First name" type="text">
+                </div> 
+        
+
+                <div class="form-group input-group my-2 ">            
+                    <label for="floatingInputGroup2"></label>
+                        <div class="input-group-prepend ms-5">              
+                            <span class="input-group-text"> <i class="fa fa-user"></i><br> </span>
+                        </div>
+                        <input name="" class="form-control" placeholder="Last name" type="text">
+                </div> 
+
+
+                <div class="form-group input-group my-2 ">
+                    <label for="floatingInputGroup1"></label>
+                        <div class="input-group-prepend ms-5">              
+                            <span class="input-group-text"> <i class="fa fa-building"></i><br> </span>
+                        </div>
+                            <select class="form-control ">
+                                <option selected="">Select your Department / Office </option>
+                                <option>CS/IT</option>
+                                <option>ENYC</option>
+                                <option>Civil</option>
+                                <option>Mechanical</option>
+                                <option>Instrumental</option>
+                            </select>
+                </div>
+                
+
+                <div class="form-group input-group my-2">
+                    <label for="floatingInputGroup1"></label>
+                    <div class="input-group-prepend ms-5">                   
+                        <span class="input-group-text"><i class="fa fa-user"></i><br></span>
+                    </div>
+                    <input name="" class="form-control" placeholder="User Name" type="text">
+                </div> 
+                
+    
+                <div class="form-group input-group my-2">
+                    <label for="floatingPassword"></label>
+                    <div class="input-group-prepend ms-5">                  
+                        <span class="input-group-text"><i class="fa fa-user"></i><br></span>
+                    </div>
+                    <input id="floatingPassword" class="form-control" placeholder="Password" type="password">
+                </div> 
+
+
+                <div class="form-group input-group my-2">
+                    <label for="floatingPassword" style="white-space: nowrap;"></label>
+                    <div class="input-group-prepend ms-5">
+                        
+                        <span class="input-group-text"><i class="fa fa-user"></i><br></span>
+                    </div>
+                    <input id="floatingPassword" class="form-control" placeholder="Confirm Password" type="password">
+                </div> 
+
+
+                <div class="form-group input-group my-2">
+                    <label for="floatingInputValue"></label>
+                    <div class="input-group-prepend ms-5">
+                        <span class="input-group-text"><i class="fa fa-envelope"></i><br></span>
+                    </div>
+                    <input id="floatingInputValue" class="form-control" placeholder="E-mail Address" type="email">
+                </div>
+
+
+                <div class="form-group input-group my-2">
+                    <label for="floatingInputValue"></label>   
+                    <div class="input-group-prepend ms-5">
+                        <span class="input-group-text"><i class="fa fa-phone"></i><br></span>
+                    </div>
+                    <input id="floatingInputValue" class="form-control" placeholder="(+91)"  maxlength="10">
+                </div><br>
+        
+
+                <div class="form-group">
+                    <button type="button" class="btn btn-warning ">Submit</button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

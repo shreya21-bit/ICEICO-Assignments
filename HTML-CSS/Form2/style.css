@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: 280%;
+    background-position: -400px 0px;
+    background-image: linear-gradient(#7077b9,#e772e5);
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+.first{
+    background: rgb(199, 199, 199);
+}
+h5{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    
+    font-family: sans-serif;
+}
+.Register{
+    background-color: white;
+    width: 100%;
+    font-size: 18px;
+    border-radius: px;
+    margin-bottom: 40px;
+    box-shadow: 2px 2px 15px rgba(0,0, 0,0.3);
+    color: #0f0f0e;
+    
+}
+#register{
+    margin: 40px;
+    margin-bottom: 0px;
+    width: 80%;
+
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
+.name{
+    width: 300px;
+    
+    border-radius: 3px;
+    outline: 0;
+    padding: 10px;
+    background: rgb(199, 199, 199);
+    
+    box-shadow: inset 1px 1px 5px;
+    
+}
+#submit{
+    margin-bottom: 100%;
+    padding-bottom: 20px;
+
+}
